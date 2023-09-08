@@ -456,8 +456,10 @@ p {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
-.button-input-wrapper {
+
+.footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-input {
   color: #fff;
