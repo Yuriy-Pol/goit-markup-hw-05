@@ -704,7 +704,9 @@ p {
   letter-spacing: 0.48px;
   text-decoration-line: underline;
 }
-.review-form-checkbox:checked .review-form-own-checkbox {
+.review-form-checkbox:checked
+  + .review-form-checkbox-label
+  > .review-form-own-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
