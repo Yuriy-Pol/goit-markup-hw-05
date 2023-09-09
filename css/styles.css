@@ -640,6 +640,9 @@ p {
   display: block;
   margin-bottom: 8px;
 }
+.textarea {
+  margin-bottom: 16px;
+}
 .review-form-comment {
   display: block;
   width: 100%;
