@@ -534,7 +534,7 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
   padding-top: 72px;
@@ -607,6 +607,7 @@ p {
 
 .review-form-input-wrapper {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .review-form-input {
@@ -670,6 +671,19 @@ p {
 }
 .review-form-checkbox-wrapper {
   margin-bottom: 24px;
+}
+.review-form-own-checkbox {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-checkbox-label {
   color: #8e8f99;
